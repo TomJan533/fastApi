@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment directories
+venv/
+
+# VS Code workspace settings
+.vscode/
+
+# Pytest cache files
+.pytest_cache/
+
+# FastAPI generated directories
+*.log
+
+# PEP 582; used by e.g. python3 -m pip install --global-option '--pep582'
+__pypackages__/
+
+
+# Docker
+*.env

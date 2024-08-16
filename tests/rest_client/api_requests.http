@@ -1,0 +1,5 @@
+### Get Root Endpoint
+GET http://127.0.0.1:8000/
+
+### Get Example Endpoint
+GET http://127.0.0.1:8000/example
