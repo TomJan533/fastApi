@@ -1,6 +1,6 @@
-# RAG Chat Api
+# Python Fast Api
 
-Retrieval Augumented Generation API
+Python Fast API base project
 
 ## Setup
 
