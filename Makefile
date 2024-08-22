@@ -29,3 +29,7 @@ test:  ## Run tests (pytest)
 	pytest
 
 all: format lint test  ## Run all checks: format, lint, and test
+
+setup:  ## Initial setup
+	python3 -m venv venv
+	. venv/bin/activate && pip install -r requirements.txt
