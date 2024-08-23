@@ -1,0 +1,19 @@
+### Create a New Section
+POST http://127.0.0.1:8000/sections/
+Content-Type: application/json
+
+{
+  "name": "Introduction",
+  "description": "This is the introductory section."
+}
+
+### Get All Content for a Section (Section ID: 5)
+GET http://127.0.0.1:8000/sections/5/content/
+
+### Add Content to a Section (Section ID: 5)
+POST http://127.0.0.1:8000/sections/5/content/
+Content-Type: application/json
+
+{
+  "content": "This is a new piece of content for section 5."
+}
